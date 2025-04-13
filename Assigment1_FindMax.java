@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Assigment1_FindMax {
     public static void main(String[] args) {
         Scanner Sc = new Scanner(System.in);
-        int[] numbers = new int[100];
+        int[] numbers = new int[10];
         System.out.println("Enter 100 Numbers...");
         for (int i = 0; i < numbers.length; i++) {
             System.out.print("Number " + (i + 1) + " : ");
